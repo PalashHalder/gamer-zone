@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+nav{
+    background: #eee9e9;
+    border: 1px solid palegreen;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    border: 1px solid blue;
+    width: 50%;
+}
+
+.logo-container img{
+    width: 50px;
+    object-fit:cover;
+    margin-right: 20px;
+}
+
+
+
+.logo-container p{
+    margin-left: 20px;
+    font-size: 45px;
+}
