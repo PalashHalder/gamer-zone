@@ -171,8 +171,8 @@ header .tiktok{
 }
 .banner .right-section img{
     padding: 20px;
-    width: 80%;
-    height: 80%;
+    width: 89%;
+    /* height: 86%; */
 }
 
 
@@ -180,17 +180,130 @@ header .tiktok{
 
 .unleash-gamer{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
 }
 
-.unleash-left{
-    width: 60%;
-    background: #4EC5F7;
+.unleash-gamer .gamer-text{
+    text-align: end;
 }
 
-.unleash-right{
-    width: 40%;
-    background: #F948B2;
+.unleash-right .gamer-text .title{
+    font-size: 30px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
 }
+
+.unleash-right .para p{
+    line-height: 30px;
+}
+
+.unleash-right .purpose p{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.unleash-right .btn-primary{
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: none;
+    padding: 18px 40px;
+    align-items: flex-start;
+    color: #FFF;
+    gap: 20px;
+    border-radius: 48px;
+    background: #FF42A5;
+    margin-bottom: 20px;
+}
+
+.unleash-right  h4{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* ========== VIDEO SECTION STARTS ========== */
+.section-title{
+    text-align: center;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.section-title .title-design{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.videos-text .section-details{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+
+
+.videos-section .videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.videos-section .videos p{
+    padding: 15px 0px 15px 5px;
+    text-align: left;
+}
+
+.videos-section .videos .video img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.videos-section .videos .video{
+    position: relative;
+}
+
+
+
+.videos-section .videos .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #f948b2;
+    color: #ffffff;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.videos-section .videos .overlay i{
+    color: #ffffff;
+}
+
+.videos-section .videos .video .overlay:hover{
+    opacity: 1;
+}
+/* ========== VIDEO SECTION ENDS ========== */
 
 
 
