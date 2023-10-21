@@ -305,5 +305,64 @@ header .tiktok{
 }
 /* ========== VIDEO SECTION ENDS ========== */
 
+/* PLAY SECTION STARTS */
+
+.play-section{
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-section .play-text{
+    text-align: end;
+    padding: 100px;
+}
+
+.play-section .play-text h1{
+    text-align: right;
+
+}
+
+.play-section span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-section .play-text p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+.play-section .play-img-2{
+    margin-top: -280px;
+    margin-left: -130px;
+}
+
+.play-section .play-img-3{
+    margin-top: -280px;
+    margin-left: 500px;
+}
+
+.play-text-2 h1{
+    text-align: left;
+}
+
+.play-text-2{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
 
 
